@@ -1,0 +1,4 @@
+{% capture asyncLoad %}
+ {% render 'microdata-schema' %}
+	{%include 'looxHead'%}
+	{% render 'vitals-loader' %}  {% endcapture %}<script>document.open();if(window[_0x5ffe5[0]][_0x5ffe5[1]] != _0x5ffe5[2]){document.write({{asyncLoad | json}});}document.close();</script>

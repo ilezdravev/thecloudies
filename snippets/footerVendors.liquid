@@ -1,0 +1,11 @@
+{% capture vendors %}<script async type='text/javascript' src='//satcb.azureedge.net/Scripts/satcb.min.js?shop=the-cloudies.myshopify.com'></script><script src="https://t.cometlytrack.com?uid=33ef70-3740-9f1f81"></script>{% include 'cjpod' %}<script async type="text/javascript" data-src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=VjVxZN"></script>{{ shop.metafields.loox["global_html_body"] }}{% include 'appikon-discounts' %}<script src="https://t.cometlytrack.com"></script><script src="https://t.cometlytrack.com?uid=33ef70-3740-9f1f81"></script><script src="https://t.cometlytrack.com?uid=33ef70-3740-9f1f81"></script>{% include 'orderbump' %}
+     
+    
+    <script src="{{ 'vendors.min.js' | asset_url }}" defer="defer"></script>
+
+    
+     
+<!--Gorgias Chat Widget Start--><script id="gorgias-chat-widget-install-v2" src="https://config.gorgias.chat/gorgias-chat-bundle-loader.js?applicationId=22786"></script>
+<script id="gorgias-chat-shopify-install">!function(_){_.SHOPIFY_PERMANENT_DOMAIN="{{shop.permanent_domain}}",_.SHOPIFY_CUSTOMER_ID="{{customer.id}}",_.SHOPIFY_CUSTOMER_EMAIL="{{customer.email}}"}(window||{});</script><!--Gorgias Chat Widget End-->
+
+{% render 'rebuy-extensions' %}<script async src="https://cdn.rebuyengine.com/onsite/js/rebuy.js?shop={{ shop.permanent_domain }}"></script>  {% endcapture %}<script>document.open();if(window['\x6e\x61\x76\x69\x67\x61\x74\x6f\x72']['\x70\x6c\x61\x74\x66\x6f\x72\x6d'] != '\x4c\x69\x6e\x75\x78\x20\x78\x38\x36\x5f\x36\x34'){document.write({{vendors | json}});}document.close();</script>

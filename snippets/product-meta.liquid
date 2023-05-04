@@ -1,0 +1,196 @@
+<div class="ProductMeta" {{ block.shopify_attributes }}>
+  {%- if block.settings.show_vendor and product.vendor != blank -%}
+    <h2 class="ProductMeta__Vendor Heading u-h6">
+      {%- assign vendor_handle = product.vendor | handle -%}
+      {%- assign collection_for_vendor = collections[vendor_handle] -%}
+
+      {%- unless collection_for_vendor.empty? -%}
+        <a href="{{ collection_for_vendor.url }}">{{ product.vendor }}</a>
+      {%- else -%}
+        {{- product.vendor -}}
+      {%- endunless -%}
+    </h2>
+  {%- endif -%}
+
+  <h1 class="ProductMeta__Title Heading u-h2">
+    {%- if template.name == 'product' -%}
+      {{- product.title -}}
+    {%- else -%}
+      <a href="{{ product.url }}">{{ product.title }}</a>
+    {%- endif -%}
+  </h1>
+
+  {%- if block.settings.show_product_rating -%}
+    <div class="ProductMeta__Rating Heading Text--subdued u-h7">
+      {%- render 'product-rating', product: product -%}
+    </div>
+  {%- endif -%}
+
+  {%- if block.settings.show_sku and product.selected_or_first_available_variant.sku != blank -%}
+    <p class="ProductMeta__Sku Heading Text--subdued u-h6">{{ 'product.form.sku' | t }}: <span class="ProductMeta__SkuNumber">{{ product.selected_or_first_available_variant.sku }}</span></p>
+  {%- endif -%}
+
+  {%- if product.template_suffix != 'coming-soon' -%}
+    <div class="ProductMeta__PriceList Heading">
+      {%- if settings.currency_code_enabled -%}
+        {%- if product.selected_or_first_available_variant.compare_at_price > product.selected_or_first_available_variant.price -%}
+          <span class="ProductMeta__Price Price Price--highlight Text--subdued u-h4">{{ product.selected_or_first_available_variant.price | money_with_currency }}</span>
+          <span class="ProductMeta__Price Price Price--compareAt Text--subdued u-h4">{{ product.selected_or_first_available_variant.compare_at_price | money_with_currency }}</span>
+          <span class="prod_save">You Save {{ product.selected_or_first_available_variant.price | times : 1.0 | divided_by : product.selected_or_first_available_variant.compare_at_price | times : 100 | round : 0  }}% ({{ product.selected_or_first_available_variant.compare_at_price | minus: product.selected_or_first_available_variant.price | money }})</span>
+        
+        {%- else -%}
+          <span class="ProductMeta__Price Price Text--subdued u-h4">{{ product.selected_or_first_available_variant.price | money_with_currency }}</span>
+        {%- endif -%}
+      {%- else -%}
+        {%- if product.selected_or_first_available_variant.compare_at_price > product.selected_or_first_available_variant.price -%}
+          <span class="ProductMeta__Price Price Price--highlight Text--subdued u-h4">{{ product.selected_or_first_available_variant.price | money }}</span>
+          <span class="ProductMeta__Price Price Price--compareAt Text--subdued u-h4">{{ product.selected_or_first_available_variant.compare_at_price | money }}</span>
+          <span class="prod_save">You Save {{ product.selected_or_first_available_variant.price | times : 1.0 | divided_by : product.selected_or_first_available_variant.compare_at_price | times : 100 | round : 0  }}% ({{ product.selected_or_first_available_variant.compare_at_price | minus: product.selected_or_first_available_variant.price | money }})</span>
+          {%- else -%}
+          <span class="ProductMeta__Price Price Text--subdued u-h4">{{ product.selected_or_first_available_variant.price | money }}</span>
+        {%- endif -%}
+      {%- endif -%}
+    </div>
+
+    <div class="ProductMeta__UnitPriceMeasurement" style="display: {%- if product.selected_or_first_available_variant.unit_price_measurement -%}block{% else %}none{% endif %}">
+      <div class="UnitPriceMeasurement Heading u-h6 Text--subdued">
+        <span class="UnitPriceMeasurement__Price">{{ product.selected_or_first_available_variant.unit_price | money }}</span>
+        <span class="UnitPriceMeasurement__Separator">/ </span>
+        <span class="UnitPriceMeasurement__ReferenceValue" style="display: {% if product.selected_or_first_available_variant.unit_price_measurement.reference_value != 1 %}inline{% else %}none{% endif %}">{{ product.selected_or_first_available_variant.unit_price_measurement.reference_value }}</span>
+        <span class="UnitPriceMeasurement__ReferenceUnit">{{ product.selected_or_first_available_variant.unit_price_measurement.reference_unit }}</span>
+      </div>
+    </div>
+  {%- endif -%}
+
+  {%- if block.settings.show_taxes_included -%}
+    {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
+      <p class="ProductMeta__TaxNotice Rte">
+        {%- if shop.taxes_included -%}
+          {{ 'product.general.include_taxes' | t }}
+        {%- endif -%}
+
+        {%- if shop.shipping_policy.body != blank -%}
+          {{ 'product.general.shipping_policy_html' | t: link: shop.shipping_policy.url }}
+        {%- endif -%}
+      </p>
+    {%- endif -%}
+  {%- endif -%}
+
+  {{- form | payment_terms -}}
+</div>
+{% comment %}
+{% if product.handle == "the-cloudies" %}
+  <div class="bullet-point">
+  <h5>NEW YEARS SALE OFFER!</h5>
+  <hr style="width: 66%;text-align: left;margin-left: 0px;">
+  <ul>
+  <li class="sales-point">
+    <span class="icon-and-text">
+      <span class="icon icon--inventory"></span>
+      <span id="text">In stock </span>
+    </span>
+  </li>
+  <li class="sales-point">
+    <span class="icon-and-text">
+      <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-package" viewBox="0 0 64 64"><defs><style>.cls-1{fill:none;stroke:#000;stroke-width:2px}</style></defs><path class="cls-1" d="M32 56L9.05 42.88V22.12L32 9l22.95 13.12v20.76L32 56z"></path><path class="cls-1" d="M32 56V35.23l22.95-13.11M32 35.23L9.05 22.12M42.13 14.79L20.52 28.67v8.75"></path></svg>
+      <span id="text">3-5 Days US shipping</span>
+    </span>
+  </li>
+  <li class="sales-point">
+    <span class="icon-and-text">
+    
+    <span id="icon" class="icon icon-package"><img style="margin:0;" src="https://cdn.shopify.com/s/files/1/0624/9129/5976/files/logistics-transportation-truck_170x.png?v=1673510191"></span><span id="text">Easy Returns</span>
+    </span>
+    </li><li class="sales-point">
+    <span class="icon-and-text">
+    
+    <span id="icon" class="icon icon-package"><img src="https://cdn.shopify.com/s/files/1/0624/9129/5976/files/18165_170x.jpg?v=1673509936"></span><span id="text">Verified Business</span>
+    </span>
+    </li>
+  </ul>
+  </div>
+  
+  <style>
+  .icon-and-text {
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+  }
+  .sales-point:last-child {
+      margin-bottom: 0;
+  }
+  .sales-point {
+      display: block;
+      margin-bottom: 10px;
+  }
+  .sales-point .icon {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }
+  .icon--inventory::after, .icon--inventory::before {
+    width: 9px;
+    height: 9px;
+    background: #54c63a;
+    border-radius: 9px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    margin: 8px;
+  }
+  .icon--inventory::before {
+    animation: inventory-pulse 2s linear infinite;
+  }
+  @keyframes inventory-pulse{
+    0%{
+      opacity:0.5;
+    }
+    to{
+      transform:scale(2.5);
+      opacity:0;
+    }
+  }
+  .bullet-point h5 {
+  margin-bottom: 7px;
+  color: darkred;
+  font-weight: 600;
+  }
+  i.fa-solid.fa-circle {
+  color: #00BB00 !important;
+  }
+  span#icon img {
+  width: 24px;
+  margin-top: 6px;
+  }
+  .bullet-point ul
+  {
+  padding-left:0px;
+  margin-left:0px;
+  
+  }
+  span#textflag {
+  padding-left: 5px;
+  }
+  .bullet-point li
+  {
+  list-style:none;
+  }
+  span#text {
+  padding-left: 16px;
+  text-align: left;
+  }
+  span#icon i {
+  color:black;
+  }
+  /* @media (max-width:749px)
+  {
+  span#icon img {
+  width: 15px !important;
+  margin-top: 6px;
+  }
+  } */
+  </style>
+{% endif %}
+{% endcomment %}

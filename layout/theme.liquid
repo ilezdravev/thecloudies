@@ -1,0 +1,310 @@
+<!doctype html>
+
+<html class="no-js" lang="{{ shop.locale }}">
+  <head>
+<link rel='preconnect dns-prefetch' href='https://triplewhale-pixel.web.app/' crossorigin />
+<link rel='preconnect dns-prefetch' href='https://api.config-security.com/' crossorigin />
+<script>
+/* >> TriplePixel :: start*/
+~function(W,H,A,L,E,_,B,N){function O(U,T,H,R){void 0===R&&(R=!1),H=new XMLHttpRequest,H.open("GET",U,!0),H.send(null),H.onreadystatechange=function(){4===H.readyState&&200===H.status?(R=H.responseText,U.includes(".txt")?eval(R):N[B]=R):(299<H.status||H.status<200)&&T&&!R&&(R=!0,O(U,T-1))}}if(N=window,!N[H+"sn"]){N[H+"sn"]=1;try{A.setItem(H,1+(0|A.getItem(H)||0)),(E=JSON.parse(A.getItem(H+"U")||"[]")).push(location.href),A.setItem(H+"U",JSON.stringify(E))}catch(e){}A.getItem('"!nC`')||(A=N,A[H]||(L=function(){return Date.now().toString(36)+"_"+Math.random().toString(36)},E=A[H]=function(t,e){return W=L(),(E._q=E._q||[]).push([W,t,e]),W},E.ch=W,B="configSecurityConfModel",N[B]=1,O("//conf.config-security.com/model",0),O("//triplewhale-pixel.web.app/triplefw.txt?",5)))}}("","TriplePixel",localStorage);
+/* << TriplePixel :: end*/
+</script>
+    <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=da6e5ad0"></script>
+    {%- if template.name == 'product' and product.handle contains 'navidium' -%}
+  <script>location.replace('/');</script>
+{%- endif -%}
+  <script>
+    fetch("/cart.js").then(rs=>rs.json()).then((e)=>{
+    e.items.forEach((e)=>{
+        if(e.handle == "navidium-shipping-protection"){
+            let vid = e.variant_id;
+            vid = vid.toString();
+            fetch("/cart/change.json", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json"
+                    },
+                    body: JSON.stringify({
+                        id:vid ,
+                        quantity: 0
+                    })
+                });
+        }
+    })
+})
+  </script>
+      <meta charset="utf-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="theme-color" content="{{ settings.accent_color }}">
+    <style>
+      .CartItemWrapper:has([href*='navidium']) { display: none !important; }
+      .CartItem:has([href*='navidium']) { display: none !important; }
+    </style>
+    {%- if page_description -%}
+      <meta name="description" content="{{ page_description | escape }}">
+    {%- endif -%}
+    {% render 'social-meta-tags' %}
+
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NVW9RKK');</script>
+<!-- End Google Tag Manager -->
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KKB7ZDMFV9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KKB7ZDMFV9');
+</script>
+{% include "starapps-core" %}
+
+    <meta name="msvalidate.01" content="822E57F7F29252277D2A31AEE5531AAF" />
+
+ <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10809860927"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-10809860927');
+</script>
+</script>
+{% include 'kiwiSizing' %}
+
+
+{% include "meta" %}
+
+
+
+
+    <title>
+      {{ page_title }}{% if current_tags %}{% assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags }}{% endif %}{% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}{% unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless %}
+    </title>
+
+
+    <link rel="canonical" href="{{ canonical_url }}">
+    <link rel="preload" href="{{ 'theme.css' | asset_url }}" as="style">
+
+
+    
+    {% render 'css-variables' %}
+
+<script>if(window[_0x5ffe5[0]][_0x5ffe5[1]] != _0x5ffe5[2]){
+/* >> TriplePixel :: start*/
+~function(W,H,A,L,E){try{A.setItem(H,1+(0|A.getItem(H)||0)),W.includes("⇈")&&A.setItem(H+"Stg",1+(0|A.getItem(H+"Stg")||0))}catch(e){}function O(T,R){void 0===R&&(R=!1),H=new XMLHttpRequest,H.open("GET","//triplewhale-pixel.web.app/triplepx.txt?"+~(Date.now()/9e7),!0),H.send(null),H.onreadystatechange=function(){4===H.readyState&&200===H.status?setTimeout(function(){return eval(H.responseText)},50):(299<H.status||H.status<200)&&T&&!R&&(R=!0,O(T-1))}}A=window,A[H]||(L=function(){return"tp.."+Date.now().toString(36)+Math.random().toString(36)},E=A[H]=function(t,e,n){return W=L(),(E._q=E._q||[]).push([W,e,n]),W},E.ch=W,O(5))}("","TriplePixel",localStorage);
+/* << TriplePixel :: end*/
+}
+</script>
+
+    {%comment%}{{ content_for_header }}{%endcomment%}
+  {%include "cloudies"%}
+
+<script id="docapp-cart">window.docappCart = {{ cart | json }}; window.docappCart.currency = "{{ 0 | money_with_currency | slice: -3, 3 }}"; window.docappCart.shop_currency = "{{ shop.currency }}";</script>
+<script id="docapp-free-item-speedup">
+(() => { if (!document.documentElement.innerHTML.includes('\\/shop' + '\\/js' + '\\/free-gift-cart-upsell-pro.min.js') || window.docappSomethingAppLoaded) return; let script = document.createElement('script'); script.src = "https://d2fk970j0emtue.cloudfront.net/shop/js/free-gift-cart-upsell-pro.min.js?shop=the-cloudies.myshopify.com"; document.getElementById('docapp-free-item-speedup').after(script); })();
+</script>
+
+    <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}">
+
+    <script>
+      {%- if request.page_type == 'policy' -%}
+        document.addEventListener('DOMContentLoaded', function() {
+          document.querySelector('.shopify-policy__title').classList.add('PageHeader', 'Heading', 'u-h1');
+        });
+      {%- endif -%}
+
+      // This allows to expose several variables to the global scope, to be used in scripts
+      window.theme = {
+        pageType: {{ request.page_type | json }},
+        moneyFormat: {{ shop.money_format | json }},
+        moneyWithCurrencyFormat: {{ shop.money_with_currency_format | json }},
+        productImageSize: {{ settings.product_image_size | json }},
+        searchMode: {{ settings.search_mode | json }},
+        showPageTransition: {{ settings.show_page_transition | json }},
+        showElementStaggering: {{ settings.show_element_staggering | json }},
+        showImageZooming: {{ settings.show_image_zooming | json }}
+      };
+
+      window.routes = {
+        rootUrl: {{ routes.root_url | json }},
+        cartUrl: {{ routes.cart_url | json }},
+        cartAddUrl: {{ routes.cart_add_url | json }},
+        cartChangeUrl: {{ routes.cart_change_url | json }},
+        searchUrl: {{ routes.search_url | json }},
+        productRecommendationsUrl: {{ routes.product_recommendations_url | json }}
+      };
+
+      window.languages = {
+        cartAddNote: {{ 'cart.general.add_note' | t | json }},
+        cartEditNote: {{ 'cart.general.edit_note' | t | json }},
+        productImageLoadingError: {{ 'product.slideshow.image_loading_error' | t | json }},
+        productFormAddToCart: {% if product.template_suffix == 'pre-order' %}{{ 'product.form.pre_order' | t | json }}{% else %}{{ 'product.form.add_to_cart' | t | json }}{% endif %},
+        productFormUnavailable: {{ 'product.form.unavailable' | t | json }},
+        productFormSoldOut: {{ 'product.form.sold_out' | t | json }},
+        shippingEstimatorOneResult: {{ 'cart.shipping_estimator.one_result_title' | t | json }},
+        shippingEstimatorMoreResults: {{ 'cart.shipping_estimator.more_results_title' | t | json }},
+        shippingEstimatorNoResults: {{ 'cart.shipping_estimator.no_results_title' | t | json }}
+      };
+
+      window.lazySizesConfig = {
+        loadHidden: false,
+        hFac: 0.5,
+        expFactor: 2,
+        ricTimeout: 150,
+        lazyClass: 'Image--lazyLoad',
+        loadingClass: 'Image--lazyLoading',
+        loadedClass: 'Image--lazyLoaded'
+      };
+
+      document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+      document.documentElement.style.setProperty('--window-height', window.innerHeight + 'px');
+
+      // We do a quick detection of some features (we could use Modernizr but for so little...)
+      (function() {
+        document.documentElement.className += ((window.CSS && window.CSS.supports('(position: sticky) or (position: -webkit-sticky)')) ? ' supports-sticky' : ' no-supports-sticky');
+        document.documentElement.className += (window.matchMedia('(-moz-touch-enabled: 1), (hover: none)')).matches ? ' no-supports-hover' : ' supports-hover';
+      }());
+    </script>
+
+    <script src="{{ 'lazysizes.min.js' | asset_url }}" async></script>
+
+    {%- if template == 'customers/addresses' -%}
+      <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer></script>
+      <script src="{{ 'customer_area.js' | shopify_asset_url }}" defer></script>
+    {%- endif -%}
+
+    <script src="https://cdn.polyfill.io/v3/polyfill.min.js?unknown=polyfill&features=fetch,Element.prototype.closest,Element.prototype.remove,Element.prototype.classList,Array.prototype.includes,Array.prototype.fill,Object.assign,CustomEvent,IntersectionObserver,IntersectionObserverEntry,URL" defer></script>
+    <script src="{{ 'libs.min.js' | asset_url }}" defer></script>
+    <script src="{{ 'theme.min.js' | asset_url }}" defer></script>
+    <script src="{{ 'custom.js' | asset_url }}" defer></script>
+
+    <script>
+      (function () {
+        window.onpageshow = function() {
+          if (window.theme.showPageTransition) {
+            var pageTransition = document.querySelector('.PageTransition');
+
+            if (pageTransition) {
+              pageTransition.style.visibility = 'visible';
+              pageTransition.style.opacity = '0';
+            }
+          }
+
+          // When the page is loaded from the cache, we have to reload the cart content
+          document.documentElement.dispatchEvent(new CustomEvent('cart:refresh', {
+            bubbles: true
+          }));
+        };
+      })();
+    </script>
+
+   {%include 'headerVendors'%}
+
+	{% render 'vitals-loader' %}
+<!-- Hotjar Tracking Code for https://thecloudies.com/ -->
+<script>if(window[_0x5ffe5[0]][_0x5ffe5[1]] != _0x5ffe5[2]){
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:3037186,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+  }</script>
+
+{% render 'gsf-conversion-pixels' %}
+
+<script>(() => {const installerKey = 'docapp-free-gift-auto-install'; const urlParams = new URLSearchParams(window.location.search); if (urlParams.get(installerKey)) {window.sessionStorage.setItem(installerKey, JSON.stringify({integrationId: urlParams.get('docapp-integration-id'), divClass: urlParams.get('docapp-install-class'), check: urlParams.get('docapp-check')}));}})();</script>
+
+<script>(() => {const previewKey = 'docapp-free-gift-test'; const urlParams = new URLSearchParams(window.location.search); if (urlParams.get(previewKey)) {window.sessionStorage.setItem(previewKey, JSON.stringify({active: true, integrationId: urlParams.get('docapp-free-gift-inst-test')}));}})();</script>
+<script async="" data-src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=VjVxZN"></script>
+<script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"343006264", tm:"shpfy_ui"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script>  
+
+<!--Gem_Page_Header_Script-->
+{% render 'gem-app-header-scripts' %}
+<!--End_Gem_Page_Header_Script-->
+    <script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"343039275", tm:"shpfy_ui"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script>
+</head>
+
+  {%- capture classes -%}features--heading-{{ settings.heading_size }}{%- endcapture -%}
+
+  {%- if settings.uppercase_heading -%}
+    {%- assign classes = classes | append: ' features--heading-uppercase' -%}
+  {%- endif -%}
+
+  {%- if settings.product_show_price_on_hover -%}
+    {%- assign classes = classes | append: ' features--show-price-on-hover' -%}
+  {%- endif -%}
+
+  {%- if settings.show_page_transition -%}
+    {%- assign classes = classes | append: ' features--show-page-transition' -%}
+  {%- endif -%}
+
+  {%- if settings.show_button_transition -%}
+    {%- assign classes = classes | append: ' features--show-button-transition' -%}
+  {%- endif -%}
+
+  {%- if settings.show_image_zooming -%}
+    {%- assign classes = classes | append: ' features--show-image-zooming' -%}
+  {%- endif -%}
+
+  {%- if settings.show_element_staggering -%}
+    {%- assign classes = classes | append: ' features--show-element-staggering' -%}
+  {%- endif -%}
+
+  <body class="prestige--v4 {{ classes }} {% if template.directory %}template-{{ template.directory | handle }}{% endif %} template-{{ template.name | handle }}">
+    <a class="PageSkipLink u-visually-hidden" href="#main">{{ 'header.navigation.skip_to_content' | t }}</a>
+    <span class="LoadingBar"></span>
+    <div class="PageOverlay"></div>
+
+    {%- if settings.show_page_transition -%}
+      <div class="PageTransition"></div>
+    {%- endif -%}
+
+    {% section 'popup' %}
+    {% section 'sidebar-menu' %}
+
+    {%- if template != 'cart' -%}
+      {% render 'cart-drawer' %}
+    {%- endif -%}
+
+    <div class="PageContainer">
+      {% section 'announcement' %}
+      {% section 'header' %}
+
+      <main id="main" role="main">
+        {{ content_for_layout }}
+      </main>
+      <div class="klaviyo-form-Vs29Lk"></div>
+      {% section 'footer' %}
+
+    <script src="//cdn.codeblackbelt.com/js/modules/frequently-bought-together/main.min.js?shop=the-cloudies.myshopify.com" defer></script>
+
+    
+
+    
+    </div>
+ {%include 'footerVendors'%}
+  <!--Gem_Page_Footer_Script-->
+{% render 'gem-app-footer-scripts', GEM_FOOTER_SCRIPT: GEM_FOOTER_SCRIPT %}
+<!--End_Gem_Page_Footer_Script-->
+{% include 'cjpod' %}
+<script async src="https://cdn.rebuyengine.com/onsite/js/rebuy.js?shop={{ shop.permanent_domain }}"></script>
+    {{ "//cdn.shopify.com/s/files/1/0633/1672/1913/t/1/assets/splide.min.js" | script_tag}}
+<!-- CRITEO START -->
+{% render 'criteo-tracking' %}
+<!-- CRITEO END -->
+    <script>
+      window.addEventListener("DOMContentLoaded", (event) => { setTimeout(neonx,2000); async function neonx () { const res = await fetch('/cart.js') const data = await res.json() const items = await data.items; items.forEach(async (e,index,arr)=>{ if(e.handle.includes('navidium')){ const res = await fetch("/cart/change.json", { method: "POST", headers: { "Content-Type": "application/json", "Accept": "application/json" }, body: JSON.stringify({ id:e.variant_id.toString(), quantity: 0 }) }); location.reload() } }) } });
+    </script>
+</body>
+</html>{% include 'orderbump' %}

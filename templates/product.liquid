@@ -1,0 +1,61 @@
+{% section 'product-template' %}
+{% section 'product-recommendations' %}
+{% section 'recently-viewed-products' %}
+
+<script>
+  window.ShopifyXR=window.ShopifyXR||function(){(ShopifyXR.q=ShopifyXR.q||[]).push(arguments)};
+  ShopifyXR('addModels', {{ product.media | where: 'media_type', 'model' | json }});
+</script>
+
+
+<script type="text/javascript">
+var _learnq = _learnq || [];
+  var classname = document.getElementsByClassName("ProductForm__AddToCart Button Button--primary Button--full");
+var addToCart = function() {
+_learnq.push(['track', 'Added to Cart', item]);
+}; for (var i = 0; i < classname.length; i++) {
+classname[i].addEventListener('click', addToCart, false);
+}
+</script>
+<div itemscope itemtype="http://schema.org/Product">
+	<meta itemprop="name" content="{{product.title}}" />
+	<meta itemprop="description" content="{{product.description | strip_html | truncatewords: 50}}" />
+	<meta itemprop="sku" content="{{ product.selected_or_first_available_variant.sku }}" />
+	<meta itemprop="url" content="{{ shop.secure_url }}{{ product.url }}">
+	<meta itemprop="image" content="{{ product.featured_image.src | img_url: 'grande' }}">
+	<meta itemprop="brand" content="{{ product.vendor }}" />
+	<meta itemprop="mpn" content="{{ product.selected_or_first_available_variant.sku }}" />
+	{% assign gtin_num = product.selected_or_first_available_variant.barcode | size %}
+	{% if gtin_num == 12 or gtin_num == 13 or gtin_num == 14  %}
+		<meta itemprop="gtin{{gtin_num}}" content="{{ product.selected_or_first_available_variant.barcode }}" />
+	{% endif %} 
+	{% if product.metafields.loox.num_reviews %}
+		<div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+		  	<meta itemprop="bestRating" content="5">
+		  	<meta itemprop="worstRating" content="1"/>  
+		  	<meta itemprop="ratingValue" content="{{ product.metafields.loox.avg_rating }}"/>
+		  	<meta itemprop="reviewCount" content="{{ product.metafields.loox.num_reviews }}"/>
+		</div>
+		<div itemprop="review" itemscope itemtype="http://schema.org/Review"  content = "{{ product.metafields.loox.avg_rating }}">
+		  	<meta itemprop="name" content="Good Product"/> 
+		  	<meta itemprop="author" content="{{ shop.name }}"/>
+		  	<meta itemprop="datePublished" content="">
+	
+		  	<div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+			    <meta itemprop="ratingValue" content = "{{ product.metafields.loox.avg_rating }}"/>
+		    	<meta itemprop="bestRating" content = "5"/>
+		    	<meta itemprop="worstRating" content = "1"/>
+		  	</div>
+		</div>
+	{% endif %}
+	<div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+		<meta itemprop="priceCurrency" content="{{ shop.currency }}" />
+        <meta itemprop="price" content="{{product.selected_or_first_available_variant.price|money_without_currency | remove: ','}}" />
+		<meta itemprop="priceValidUntil" content="{{ "today" | date: '%s' | plus: days | date: "%Y-%m-%d" }}">
+    	<meta itemprop="availability" content="http://schema.org/{% if product.selected_or_first_available_variant.available %}InStock{% else %}OutOfStock{% endif %}"/>
+        <meta itemprop="itemCondition" itemtype="http://schema.org/OfferItemCondition" content="http://schema.org/NewCondition"/>
+   		<meta itemprop="seller" content="{{ shop.name | escape }}" />
+        <meta itemprop="url" content="{{ shop.secure_url }}{{ product.selected_or_first_available_variant.url }}">
+	</div> 
+</div>
+<!--Start Stamped.io Auto Installation--><div id="stamped-main-widget" class="stamped-main-widget" data-widget-style="standard" data-product-id="{{ product.id }}" data-name="{{ product.title | escape }}" data-url="{{ shop.url }}{{ product.url }}" data-image-url="{{ product.featured_image | product_img_url: "large" |replace: '?', '%3F' | replace: '&','%26'}}" data-description="{{ product.description | escape }}" data-product-sku="{{product.handle}}" data-product-type="{{product.type}}" data-widget-language="{{shop.locale}}">{{ product.metafields.stamped.reviews }}</div><!--End Stamped.io Auto Installation-->

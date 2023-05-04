@@ -1,0 +1,1986 @@
+{
+  "current": {
+    "heading_color": "#333333",
+    "text_color": "#5c5c5c",
+    "text_light_color": "#333333",
+    "link_color": "#6a6a6a",
+    "background": "#ffffff",
+    "light_background": "#ffffff",
+    "product_on_sale_color": "#f94c43",
+    "button_background": "#344bb6",
+    "button_text_color": "#ffffff",
+    "header_background": "#ffffff",
+    "header_heading_color": "#1c1b1b",
+    "header_light_color": "#6a6a6a",
+    "footer_background": "#efefef",
+    "footer_heading_color": "#5c5c5c",
+    "footer_text_color": "#6a6a6a",
+    "navigation_background": "#ffffff",
+    "navigation_text_color": "#5c5c5c",
+    "newsletter_popup_background": "#1c1b1b",
+    "newsletter_popup_text_color": "#ffffff",
+    "secondary_elements_background": "#1c1b1b",
+    "secondary_elements_text_color": "#ffffff",
+    "heading_font": "montserrat_n5",
+    "heading_size": "normal",
+    "uppercase_heading": true,
+    "text_font": "montserrat_n4",
+    "base_text_font_size": 15,
+    "show_page_transition": false,
+    "show_button_transition": true,
+    "show_image_zooming": false,
+    "show_element_staggering": false,
+    "search_mode": "product",
+    "product_show_price_on_hover": false,
+    "product_show_secondary_image": false,
+    "product_info_alignment": "center",
+    "product_image_size": "square",
+    "product_list_horizontal_spacing": "medium",
+    "product_list_vertical_spacing": "small",
+    "cart_type": "drawer",
+    "cart_enable_notes": false,
+    "cart_show_free_shipping_threshold": false,
+    "cart_free_shipping_threshold": "",
+    "social_facebook": "https:\/\/www.facebook.com\/profile.php?id=100089054500318",
+    "social_pinterest": "https:\/\/www.pinterest.at\/thecloudies\/",
+    "social_instagram": "https:\/\/www.instagram.com\/cloudies.world\/",
+    "social_youtube": "https:\/\/www.youtube.com\/channel\/UC8xIpg_QB9A1MJvDtDjbATQ",
+    "social_tiktok": "https:\/\/www.tiktok.com\/@thecloudies_official",
+    "favicon": "shopify:\/\/shop_images\/Design_ohne_Titel_-_2022-05-24T110442.524.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Cloudies-Badge4.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_color": "#ffffff",
+    "checkout_accent_color": "#1138c7",
+    "checkout_button_color": "#1138c7",
+    "sections": {
+      "sidebar-menu": {
+        "type": "sidebar-menu",
+        "settings": {
+          "primary_menu": "main-menu",
+          "secondary_menu": "",
+          "show_social_media": true
+        }
+      },
+      "announcement": {
+        "type": "announcement",
+        "settings": {
+          "enable_bar": true,
+          "home_page_only": false,
+          "background": "#344ab6",
+          "text_color": "#ffffff",
+          "content": "SPRING SALE 60% OFF | ONLY TODAY BUY 2 GET 1 FREE",
+          "link": ""
+        }
+      },
+      "header": {
+        "type": "header",
+        "blocks": {
+          "bc4ffac9-eaac-4e89-b4d1-4de08e1e714c": {
+            "type": "mega_menu",
+            "settings": {
+              "navigation_mega_menu": "",
+              "push_1_heading": "Example heading",
+              "push_1_subheading": "Example sub-heading",
+              "push_1_url": "",
+              "push_2_heading": "Example heading",
+              "push_2_subheading": "Example sub-heading",
+              "push_2_url": ""
+            }
+          }
+        },
+        "block_order": [
+          "bc4ffac9-eaac-4e89-b4d1-4de08e1e714c"
+        ],
+        "settings": {
+          "use_sticky_header": false,
+          "logo": "shopify:\/\/shop_images\/Cloudies-Logo.png",
+          "logo_max_width": 140,
+          "mobile_logo_max_width": 115,
+          "show_currency_selector": false,
+          "show_locale_selector": false,
+          "navigation_menu": "main-menu",
+          "navigation_style": "logoLeft",
+          "show_icons": true,
+          "enable_transparent_header": false,
+          "enable_transparent_header_collection": false,
+          "show_transparent_header_border": false,
+          "transparent_text_color": "#ffffff"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-1": {
+            "type": "links",
+            "settings": {
+              "menu": "footer"
+            }
+          },
+          "86ff314d-77bb-4c18-85e5-139272aac764": {
+            "type": "links",
+            "settings": {
+              "menu": "support"
+            }
+          },
+          "footer-0": {
+            "type": "text",
+            "settings": {
+              "title": "Info",
+              "content": "<p><strong>E-Mail: <\/strong><span style=\"text-decoration:underline\">contact@thecloudies.com<\/span><\/p><p><strong>Phone: <\/strong>+1 213-816-7831<\/p><p><strong>Mon - Sat:<\/strong> 9am - 5pm EST<\/p>",
+              "show_social_media": true
+            }
+          },
+          "footer-2": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Subscribe to our newsletter",
+              "content": "<p>We want to keep it simple. Only the news and updates you need & some awesome Discounts!<\/p>"
+            }
+          },
+          "8399f587-ac46-40b7-bdaa-2cc3ecac4a7d": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "title": "100% DELIVERY GUARANTEE",
+              "content": "<p>We take full responsibility for our products, from our warehouse to your doorstep. If anything goes wrong — we'll fix it.<\/p>",
+              "show_social_media": true
+            }
+          }
+        },
+        "block_order": [
+          "footer-1",
+          "86ff314d-77bb-4c18-85e5-139272aac764",
+          "footer-0",
+          "footer-2",
+          "8399f587-ac46-40b7-bdaa-2cc3ecac4a7d"
+        ],
+        "settings": {
+          "show_payment_methods": false,
+          "show_currency_selector": true,
+          "show_locale_selector": false
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "blocks": {
+          "slide-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/DSC08990.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/DSC08442.jpg",
+              "apply_overlay": true,
+              "content_position": "middleCenter",
+              "subheading": "Say goodbye to rough slippers, hello to the softest on earth.",
+              "title": "THE CLOUDIES™",
+              "button_1_text": "SHOP Slides",
+              "button_1_link": "shopify:\/\/products\/the-cloudies",
+              "button_2_text": "",
+              "button_2_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "slide-0"
+        ],
+        "settings": {
+          "show_fullscreen": false,
+          "show_arrow": false,
+          "autoplay": false,
+          "cycle_speed": 8,
+          "text_color": "#ffffff",
+          "button_color": "#000000",
+          "button_background": "#ffffff"
+        }
+      },
+      "featured-collections": {
+        "type": "featured-collections",
+        "blocks": {
+          "featured-collection-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "bestseller",
+              "title": "",
+              "grid_items_count": 20,
+              "button_text": "View all products"
+            }
+          }
+        },
+        "block_order": [
+          "featured-collection-0"
+        ],
+        "settings": {
+          "title": "EXKLUSIVE SHIPPING FROM GERMANY.",
+          "layout_mode": "grid",
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false,
+          "grid_mobile_items_per_row": "2",
+          "grid_desktop_items_per_row": 4
+        }
+      },
+      "collection-list": {
+        "type": "collection-list",
+        "blocks": {
+          "collection-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Sub-heading",
+              "title": "Collection name",
+              "button_text": "View products",
+              "apply_overlay": true
+            }
+          },
+          "collection-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Sub-heading",
+              "title": "Collection name",
+              "button_text": "View products",
+              "apply_overlay": true
+            }
+          },
+          "collection-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Sub-heading",
+              "title": "Collection name",
+              "button_text": "View products",
+              "apply_overlay": true
+            }
+          }
+        },
+        "block_order": [
+          "collection-0",
+          "collection-1",
+          "collection-2"
+        ],
+        "settings": {
+          "image_size": "normal",
+          "add_spacing": true,
+          "expand_collection": false,
+          "stack_on_mobile": true,
+          "text_color": "#ffffff",
+          "button_color": "#363636"
+        }
+      },
+      "featured-product": {
+        "type": "featured-product",
+        "settings": {
+          "subheading": "",
+          "title": "Featured product",
+          "show_headings_on_mobile": true,
+          "product": "",
+          "show_vendor": true,
+          "show_sku": false,
+          "show_description": true,
+          "description_below_add_to_cart": false,
+          "selector_mode": "dropdown",
+          "show_color_swatch": false,
+          "show_color_carousel": false,
+          "show_quantity_selector": true,
+          "show_inventory_quantity": false,
+          "inventory_quantity_threshold": 3,
+          "show_price_in_button": false,
+          "show_payment_button": true
+        }
+      },
+      "timeline": {
+        "type": "timeline",
+        "blocks": {
+          "item-0": {
+            "type": "item",
+            "settings": {
+              "apply_overlay": true,
+              "title": "2000",
+              "subheading": "Sub-heading",
+              "heading": "Heading",
+              "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+            }
+          },
+          "item-1": {
+            "type": "item",
+            "settings": {
+              "apply_overlay": true,
+              "title": "2001",
+              "subheading": "Sub-heading",
+              "heading": "Heading",
+              "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+            }
+          },
+          "item-2": {
+            "type": "item",
+            "settings": {
+              "apply_overlay": true,
+              "title": "2002",
+              "subheading": "Sub-heading",
+              "heading": "Heading",
+              "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "item-0",
+          "item-1",
+          "item-2"
+        ],
+        "settings": {
+          "text_color": "#ffffff"
+        }
+      },
+      "blog-posts": {
+        "type": "blog-posts",
+        "blocks": {
+          "blog-0": {
+            "type": "blog",
+            "settings": {
+              "blog": "news"
+            }
+          }
+        },
+        "block_order": [
+          "blog-0"
+        ],
+        "settings": {
+          "subheading": "",
+          "title": "Featured article",
+          "show_category": false,
+          "button_text": "View all articles"
+        }
+      },
+      "shop-the-look": {
+        "type": "shop-the-look",
+        "blocks": {
+          "look-0": {
+            "type": "look",
+            "settings": {
+              "dot_style": "light",
+              "product_1": "",
+              "product_1_horizontal_position": 30,
+              "product_1_vertical_position": 40,
+              "product_2": "",
+              "product_2_horizontal_position": 45,
+              "product_2_vertical_position": 65,
+              "product_3": "",
+              "product_3_horizontal_position": 70,
+              "product_3_vertical_position": 50
+            }
+          },
+          "look-1": {
+            "type": "look",
+            "settings": {
+              "dot_style": "light",
+              "product_1": "",
+              "product_1_horizontal_position": 25,
+              "product_1_vertical_position": 45,
+              "product_2": "",
+              "product_2_horizontal_position": 55,
+              "product_2_vertical_position": 30,
+              "product_3": "",
+              "product_3_horizontal_position": 65,
+              "product_3_vertical_position": 60
+            }
+          }
+        },
+        "block_order": [
+          "look-0",
+          "look-1"
+        ],
+        "settings": {
+          "subheading": "",
+          "title": "SHOP THE LOOK",
+          "show_mobile_product_info": false
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "show_collection_info": true,
+          "show_collection_image": false,
+          "apply_overlay": true,
+          "show_color_swatch": false,
+          "show_vendor": false,
+          "collection_image_size": "normal",
+          "show_sort_by": false,
+          "show_layout_switch": false,
+          "toolbar_position": "top",
+          "filter_position": "drawer",
+          "filter_mode": "hidden",
+          "show_filter_color_swatch": false,
+          "filter_menu": "",
+          "grid_items_per_page": 16,
+          "grid_mobile_items_per_row": "2",
+          "grid_desktop_items_per_row": 4
+        }
+      },
+      "recently-viewed-products": {
+        "type": "recently-viewed-products",
+        "settings": {
+          "show_section": false,
+          "title": "Recently viewed",
+          "show_product_info": false,
+          "show_vendor": false,
+          "show_color_swatch": false
+        }
+      },
+      "collection-footer": {
+        "type": "collection-footer",
+        "settings": {
+          "show_section": false,
+          "text_color": "#ffffff",
+          "apply_overlay": true,
+          "title": "Our story",
+          "content": "<p>Add your own custom content to explain your processes...<\/p>"
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_share_buttons": false,
+          "show_vendor": false,
+          "show_sku": false,
+          "show_taxes_included": true,
+          "description_below_add_to_cart": true,
+          "selector_mode": "block",
+          "show_color_swatch": false,
+          "show_color_carousel": false,
+          "show_quantity_selector": true,
+          "show_inventory_quantity": false,
+          "inventory_quantity_threshold": 3,
+          "show_price_in_button": false,
+          "show_payment_button": false,
+          "image_size": "large",
+          "stack_images": true,
+          "show_thumbnails": true,
+          "enable_image_zoom": false,
+          "enable_video_looping": false,
+          "tab_page_1_handle": "",
+          "tab_page_2_handle": "",
+          "reviews_enabled": false,
+          "featured_image_size": "large"
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": false,
+          "heading": "You may also like",
+          "show_product_info": false,
+          "show_vendor": false,
+          "show_color_swatch": false
+        }
+      },
+      "popup": {
+        "type": "popup",
+        "settings": {
+          "show_popup": false,
+          "show_only_on_index": true,
+          "show_only_for_visitors": true,
+          "show_only_once": true,
+          "title": "Popup",
+          "content": "<p>You can use this popup to display some useful information to your customers.<\/p>",
+          "show_newsletter": true,
+          "apparition_delay": 5
+        }
+      },
+      "1641648372d692cf3b": {
+        "type": "text-with-image",
+        "settings": {
+          "subheading": "",
+          "title": "FOOT  HEaven",
+          "image": "shopify:\/\/shop_images\/DSC08805.jpg",
+          "image_position": "right",
+          "content": "<p>Slide your feet into foot heaven! Learn why everyone is talking about The Cloudies™.<\/p>",
+          "link_text": "SHOP THE CLOUDIES™",
+          "link_url": "shopify:\/\/products\/the-cloudies"
+        }
+      },
+      "16416489283923b99d": {
+        "type": "text-with-image",
+        "settings": {
+          "subheading": "",
+          "title": "COZY FEET ALL DAY LONG",
+          "image": "shopify:\/\/shop_images\/DSC08507.jpg",
+          "image_position": "left",
+          "content": "<p>✔️ Relieves pressure on your feet while walking<br\/>✔️ Lighter than a smartphone<br\/>✔️ Waterproof and non-slip<br\/>✔️ Breathable, ultra-stretch fabric<\/p>",
+          "link_text": "",
+          "link_url": ""
+        }
+      },
+      "1641649492d1885423": {
+        "type": "text-with-image",
+        "settings": {
+          "subheading": "",
+          "title": "WEAR The Cloudies™ EVERYWHERE",
+          "image": "shopify:\/\/shop_images\/image_67179777.jpg",
+          "image_position": "right",
+          "content": "<p>The Cloudies™ combine comfort and versatility. Wear yours around the house, outside, at the beach or in the shower!<\/p><p>They are easy to clean and anti slip.<br\/><\/p>",
+          "link_text": "SHOP NOW",
+          "link_url": "shopify:\/\/products\/the-cloudies"
+        }
+      },
+      "page-faq-template": {
+        "type": "page-faq-template",
+        "blocks": {
+          "0d8b82ae-68bf-464a-a5ca-611014628f98": {
+            "type": "separator",
+            "settings": {
+              "title": "FREQUENTLY ASK QUESTIONS"
+            }
+          },
+          "ff19d2df-9aef-4ea9-a0be-c8b71ea1d47e": {
+            "type": "question",
+            "settings": {
+              "title": "Do they fit big or small?",
+              "answer": "<p><strong>If you are a half size and we don’t have your available, please size down. Keep in mind that our slippers are open toed and can cover a range of sizes.<\/strong><\/p>"
+            }
+          },
+          "9b7855bc-ca94-4ee4-99e5-7c03bbde3846": {
+            "type": "question",
+            "settings": {
+              "title": "Do they cure foot pain?",
+              "answer": "<p><strong>Most of our customers who experience foot pain say they help a lot! But, no they do not cure foot pain.<\/strong><\/p><p><strong>Although, The Cloudies do compress with each step and absorb the position of your foot, making it more comfortable then most footwear.<\/strong><\/p>"
+            }
+          },
+          "96a421fe-51e1-4dd0-a5fa-d4482734ea1c": {
+            "type": "question",
+            "settings": {
+              "title": "Are they as comfy as they look?",
+              "answer": "<p><strong>Yes, but they are slightly stiffer when you get them. Wear them for a week to break them in and they will soften up, or soak them in warm water for 30 minutes.<\/strong><\/p>"
+            }
+          },
+          "48c33626-a967-490f-9784-c80dd3b7ee29": {
+            "type": "question",
+            "settings": {
+              "title": "What material are the Cloudies made of?",
+              "answer": "<p><strong>The material is made of EVA. Ethylene vinyl acetate co-polymers are non-toxic.<\/strong><\/p><p><strong> They do not contain plasticizers or other additives. The high-quality EVA material is completely harmless and kind to the skin.<\/strong><\/p><p><strong> The material is used for insoles and shoes all over the world because it is durable and long-lasting. <\/strong><\/p><p><strong>So you have absolutely no need to worry about your health.<\/strong><\/p>"
+            }
+          },
+          "83899128-1e9d-46cb-9ea3-5573647264fb": {
+            "type": "question",
+            "settings": {
+              "title": "They are more stiff than advertised, why is this?",
+              "answer": "<p><strong>The EVA material we use is designed to break in overtime, they are supposed to be stiff right when you get them. <\/strong><\/p><p><strong>If you want to skip the “break in” period, then soak them in warm-hot water for 30 minutes.<\/strong><\/p>"
+            }
+          },
+          "63da14f4-2c37-4c52-bf3f-ca11eed679fe": {
+            "type": "question",
+            "settings": {
+              "title": "Do they offer arch support?",
+              "answer": "<p><strong>No they don't have much arch support, but the material is designed to compress and relieve pressure off your feet.<\/strong><\/p>"
+            }
+          },
+          "56e6d0d6-1136-41f5-b883-8e2b11bf360e": {
+            "type": "question",
+            "settings": {
+              "title": "Where are you guys located?",
+              "answer": "<p><strong>Our design team, marketing team, and product rollout team are based in Canada and the United States.<\/strong> <\/p><p><strong>Our manufacturer is in China, please do not attach a negative quality to having them made in China. <\/strong><\/p><p><strong>We have amazing feedback on our product, and if you don’t like it, we have a forgiving return policy, so you really have not a lot of risk...<\/strong><\/p>"
+            }
+          },
+          "page-faq-template-1": {
+            "type": "question",
+            "settings": {
+              "title": "How does the shipping and delivery work?",
+              "answer": "<p><strong>You've placed an order, the sun is shining and the sky is bright blue because you know your Cloudies are on their way - now what? <\/strong><\/p><p><strong>Once an order is placed, our team will carefully pick up your Cloudies from the clouds and lovingly pack them. Please allow up to 72 hours for our team to pick up and pack your order. <\/strong><\/p><p><strong>All orders are shipped when all items are completely ready - this means that any items you have pre-ordered will wait until the last item is available, and then be shipped at the same time.<\/strong><\/p>"
+            }
+          },
+          "page-faq-template-3": {
+            "type": "question",
+            "settings": {
+              "title": "How long does the shipping take?",
+              "answer": "<p><strong>INTERNATIONAL SHIPPING<\/strong><\/p><p><strong>We offer Free Insured & Tracked Shipping worldwide, so everyone can enjoy our beautiful products! Unfortunately, we cannot speed up the international shipping or the transit time\/customs clearance process, so sometimes shipping times may extend a bit, this is out of our hands.<\/strong><\/p><p><strong>All orders ship within 1-3 business days of purchase.<\/strong><\/p><p><strong>SHIPPING TIME:<\/strong><\/p><p>USA & Canada: 7 - 21 days<\/p><p>Australia and New Zealand: 7 - 21days<\/p><p>Europe: 7 - 21 days<\/p><p>Rest of the world: 7 - 21 days<\/p><p>If you just received a shipment notification, please allow <strong>1 to 6 working days<\/strong> for the tracking information to <strong>update<\/strong>.<\/p><p><strong>COVID-19 SHIPPING UPDATE<\/strong><\/p><p>We are working as usual despite COVID-19 and your purchase is 100% guaranteed. Order processing time remains the same, but delivery can be delayed a few days.<\/p>"
+            }
+          },
+          "page-faq-template-2": {
+            "type": "question",
+            "settings": {
+              "title": "What is the cost of shipping?",
+              "answer": "<p><strong>Not a cent! We ship all orders by free standard shipping (with tracking). <\/strong><\/p>"
+            }
+          },
+          "17b16ab9-3e58-4923-afb3-ed1e1aafc520": {
+            "type": "question",
+            "settings": {
+              "title": "Why do they shrink in the sun?",
+              "answer": "<p><strong>To make the squishiest, most comfortable material there are micro air pockets the compress when overheated causing them to shrink slightly.<\/strong><\/p><p><strong>If you experience this, use the code FUNSUN to save 15% off your next order. Shhh, keep the code a secret though.<\/strong><\/p>"
+            }
+          },
+          "page-faq-template-0": {
+            "type": "separator",
+            "settings": {
+              "title": "RETURNS \/ EXCHANGES"
+            }
+          },
+          "b49d50c9-4ec7-49b8-8fe7-7a4c8c56eab4": {
+            "type": "question",
+            "settings": {
+              "title": "What’s your return policy?",
+              "answer": "<p><strong>30 day return policy, you must ship it back to us and you are responsible for covering the shipping costs. If it’s a defective product, we will ship you a new one.<\/strong><\/p>"
+            }
+          },
+          "05e7b7c9-8eed-4c26-b1fd-63a3763a3287": {
+            "type": "question",
+            "settings": {
+              "title": "I received the wrong size, what do I do?",
+              "answer": "<p><strong>Ship it back to us, send us the tracking information, once the tracking updates we will send you a new one.<\/strong><\/p>"
+            }
+          },
+          "d45684a3-4627-4dee-a819-35e4369ce5e7": {
+            "type": "question",
+            "settings": {
+              "title": "How do I cancel my order?",
+              "answer": "<p><strong>If you want to cancel within 6 hours of your order being placed email us the reason for cancelling with your order number and we will cancel it. If your order has already been processed, you will have to wait until you receive it, then ship it back to us. Once it is shipped back to us we will refund you.<\/strong><\/p>"
+            }
+          },
+          "page-faq-template-8": {
+            "type": "question",
+            "settings": {
+              "title": "What is the best way to reach support?",
+              "answer": "<p>Just use our <a href=\"https:\/\/the-cloudies.myshopify.com\/pages\/contact\" title=\"https:\/\/the-cloudies.myshopify.com\/pages\/contact\">contact form<\/a> or e-mail us at: <strong>contact@thecloudies.com<\/strong><\/p>"
+            }
+          },
+          "8435f73b-c650-4232-9520-919a5f36aea2": {
+            "type": "question",
+            "settings": {
+              "title": "What happens if the product arrives damaged?",
+              "answer": "<p><strong>If the product is damaged, you should report the damage to us within 30 days after ordering.<\/strong><\/p><p><strong> In this case, you should send us your order number and a photo of the damaged product. <\/strong><\/p><p><strong>We ask you to report the damage within 24 hours after delivery of your order. <\/strong><\/p><p><strong>Otherwise, we will not be able to consider the claim.<\/strong><\/p>"
+            }
+          },
+          "c8fd7e45-5116-4097-b535-f610d2242f64": {
+            "type": "separator",
+            "settings": {
+              "title": "Tracking"
+            }
+          },
+          "1cd87058-1c04-43fc-86ca-0bdd0043dd61": {
+            "type": "question",
+            "settings": {
+              "title": "How do I track my order?",
+              "answer": "<p><strong>Track your order here: <\/strong><a href=\"https:\/\/thecloudies.com\/apps\/wonderment\/tracking?search=\" title=\"https:\/\/thecloudies.com\/apps\/wonderment\/tracking?search=\">https:\/\/thecloudies.com\/tracking <\/a>Either enter your order number and email into the field, or enter your tracking number into the field. If your tracking is not updated, please give it 2-4 days.<\/p>"
+            }
+          },
+          "1ab09948-67a6-4bf1-bb76-03f4d54fb59e": {
+            "type": "question",
+            "settings": {
+              "title": "When will my tracking be updated?",
+              "answer": "<p><strong>Tracking can take up to 6 days to update, this does not mean that it has not shipped yet. It could be on route to you, sometimes there are just delays in the tracking.<\/strong><\/p>"
+            }
+          },
+          "ed9814be-a365-4a82-933e-50283b35f9be": {
+            "type": "separator",
+            "settings": {
+              "title": "Other"
+            }
+          },
+          "6616178e-88eb-4630-a6ef-45761243b3f9": {
+            "type": "question",
+            "settings": {
+              "title": "What payment methods are supported?",
+              "answer": "<p><strong>We accept the good old-fashioned methods of payment, such as credit cards (Visa\/Mastercard\/American Express) as well as debit cards that can be used for online transactions. If you’re a bit more tech-savvy, we offer GooglePay and ApplePay too!<\/strong><\/p>"
+            }
+          },
+          "page-faq-template-5": {
+            "type": "question",
+            "settings": {
+              "title": "Size Chart",
+              "answer": "<p><strong>You can find our size chart on our product page. <\/strong><\/p><p><strong>However, if you have problems to find the right size write us an email:<\/strong> <\/p><p><strong>contact@thecloudies.com<\/strong><\/p>"
+            }
+          },
+          "page-faq-template-6": {
+            "type": "question",
+            "settings": {
+              "title": "Is it overpriced?",
+              "answer": "<p><strong>Oh my, it's obvious to those who haven't experienced The Cloudies for themselves! <\/strong><\/p><p><strong>We can promise you that the Cloudies are worth every penny. Gone are the days of having to step into uncomfortable shoes! <\/strong><\/p><p><strong>Once you put on these soft, fluffy cushion-like slides, you'll know exactly what we mean!<\/strong><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "0d8b82ae-68bf-464a-a5ca-611014628f98",
+          "ff19d2df-9aef-4ea9-a0be-c8b71ea1d47e",
+          "9b7855bc-ca94-4ee4-99e5-7c03bbde3846",
+          "96a421fe-51e1-4dd0-a5fa-d4482734ea1c",
+          "48c33626-a967-490f-9784-c80dd3b7ee29",
+          "83899128-1e9d-46cb-9ea3-5573647264fb",
+          "63da14f4-2c37-4c52-bf3f-ca11eed679fe",
+          "56e6d0d6-1136-41f5-b883-8e2b11bf360e",
+          "page-faq-template-1",
+          "page-faq-template-3",
+          "page-faq-template-2",
+          "17b16ab9-3e58-4923-afb3-ed1e1aafc520",
+          "page-faq-template-0",
+          "b49d50c9-4ec7-49b8-8fe7-7a4c8c56eab4",
+          "05e7b7c9-8eed-4c26-b1fd-63a3763a3287",
+          "d45684a3-4627-4dee-a819-35e4369ce5e7",
+          "page-faq-template-8",
+          "8435f73b-c650-4232-9520-919a5f36aea2",
+          "c8fd7e45-5116-4097-b535-f610d2242f64",
+          "1cd87058-1c04-43fc-86ca-0bdd0043dd61",
+          "1ab09948-67a6-4bf1-bb76-03f4d54fb59e",
+          "ed9814be-a365-4a82-933e-50283b35f9be",
+          "6616178e-88eb-4630-a6ef-45761243b3f9",
+          "page-faq-template-5",
+          "page-faq-template-6"
+        ],
+        "settings": {
+        }
+      },
+      "page-contact-template": {
+        "type": "page-contact-template",
+        "settings": {
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "show_shipping_estimator": false,
+          "shipping_estimator_default_country": "United States"
+        }
+      },
+      "67a22e08-9e68-4bce-9a10-f1f9155b9738": {
+        "type": "text-with-image",
+        "settings": {
+          "subheading": "",
+          "title": "THE SOFTEST STEP YOU'LL EVER TAKE, GUARANTEED.",
+          "image_position": "left",
+          "content": "<p>Our slippers are made with 1.8inch thick EVA material, known for its softness and durability. These slippers will mold to the shape of your foot, providing a customized and comfortable fit. You'll feel like you're walking on clouds. We guarantee they are the softest step you'll ever take.<\/p>",
+          "link_text": "",
+          "link_url": ""
+        }
+      },
+      "870e3bd6-0d36-468a-ad76-2b8ded2f5787": {
+        "type": "text-with-image",
+        "settings": {
+          "subheading": "",
+          "title": "WHAT OUR CUSTOMERS SAY ABOUT US",
+          "image_position": "right",
+          "content": "",
+          "link_text": "",
+          "link_url": ""
+        }
+      },
+      "6c5b91a4-a603-41d7-b1a0-7296cfe1949e": {
+        "type": "loox-gallery-card-section",
+        "settings": {
+          "maxWidth": 1100,
+          "borderRadius": 8,
+          "itemsPerView": 4,
+          "maxNumberOfCharacters": 100,
+          "imageRatio": "0.72",
+          "reviewerNameColor": "#000000",
+          "textColor": "#000000",
+          "itemBackgroundColor": "#ffffff",
+          "starsColor": "",
+          "starsBackgroundColor": "#ffffff",
+          "arrows_backgroundColor": "#ffffff",
+          "arrows_iconColor": "#9a9a9a",
+          "shadow": "offset-dark",
+          "border_active": false,
+          "border_width": 2,
+          "border_color": "#000000",
+          "productIds": "the-cloudies"
+        }
+      }
+    },
+    "content_for_index": [
+      "slideshow",
+      "67a22e08-9e68-4bce-9a10-f1f9155b9738",
+      "1641648372d692cf3b",
+      "16416489283923b99d",
+      "1641649492d1885423",
+      "870e3bd6-0d36-468a-ad76-2b8ded2f5787",
+      "6c5b91a4-a603-41d7-b1a0-7296cfe1949e"
+    ],
+    "blocks": {
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "5134484470793087125": {
+        "type": "shopify:\/\/apps\/vitals-all-in-one-marketing\/blocks\/app-embed\/aeb48102-2a5a-4f39-bdbd-d8d49f4e20b8",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
+  },
+  "presets": {
+    "Allure": {
+      "heading_color": "#1c1b1b",
+      "text_color": "#1c1b1b",
+      "text_light_color": "#6a6a6a",
+      "link_color": "#6a6a6a",
+      "background": "#efefef",
+      "light_background": "#ffffff",
+      "product_on_sale_color": "#f94c43",
+      "button_background": "#1c1b1b",
+      "button_text_color": "#ffffff",
+      "header_background": "#ffffff",
+      "header_heading_color": "#1c1b1b",
+      "header_light_color": "#6a6a6a",
+      "footer_background": "#ffffff",
+      "footer_heading_color": "#1c1b1b",
+      "footer_text_color": "#6a6a6a",
+      "newsletter_popup_background": "#1c1b1b",
+      "newsletter_popup_text_color": "#ffffff",
+      "secondary_elements_background": "#1c1b1b",
+      "secondary_elements_text_color": "#ffffff",
+      "navigation_background": "#1c1b1b",
+      "navigation_text_color": "#ffffff",
+      "heading_font": "montserrat_n5",
+      "heading_size": "small",
+      "uppercase_heading": true,
+      "text_font": "nunito_sans_n4",
+      "base_text_font_size": 14,
+      "show_page_transition": false,
+      "search_mode": "product,article",
+      "product_show_price_on_hover": false,
+      "product_show_secondary_image": false,
+      "product_info_alignment": "center",
+      "product_image_size": "natural",
+      "product_list_horizontal_spacing": "medium",
+      "product_list_vertical_spacing": "small",
+      "cart_type": "drawer",
+      "cart_enable_notes": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "center",
+      "checkout_logo_size": "small",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#efefef",
+      "checkout_accent_color": "#1c1b1b",
+      "checkout_button_color": "#1c1b1b",
+      "sections": {
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": {
+            "primary_menu": "main-menu",
+            "show_social_media": true
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "content": "Announce something here"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "use_sticky_header": true,
+            "logo_max_width": 140,
+            "navigation_menu": "main-menu",
+            "navigation_style": "inline",
+            "enable_transparent_header": true,
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
+                "show_social_media": true
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_payment_methods": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "show_fullscreen": true,
+            "show_arrow": false,
+            "autoplay": true,
+            "cycle_speed": 5,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-collections": {
+          "type": "featured-collections",
+          "blocks": {
+            "featured-collection-0": {
+              "type": "collection",
+              "settings": {
+                "grid_items_count": 8,
+                "button_text": "View all products"
+              }
+            }
+          },
+          "block_order": [
+            "featured-collection-0"
+          ],
+          "settings": {
+            "title": "Featured collection",
+            "layout_mode": "grid",
+            "show_product_info": true,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2"
+          ],
+          "settings": {
+            "add_spacing": true,
+            "expand_collection": false,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+            "title": "Featured product",
+            "show_vendor": true,
+            "show_description": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3
+          }
+        },
+        "timeline": {
+          "type": "timeline",
+          "blocks": {
+            "item-0": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2000",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-1": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2001",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-2": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2002",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "item-0",
+            "item-1",
+            "item-2"
+          ],
+          "settings": {
+            "text_color": "#ffffff"
+          }
+        },
+        "blog-posts": {
+          "type": "blog-posts",
+          "blocks": {
+            "blog-0": {
+              "type": "blog",
+              "settings": {
+                "blog": "news"
+              }
+            }
+          },
+          "block_order": [
+            "blog-0"
+          ],
+          "settings": {
+            "title": "Featured article",
+            "show_category": false,
+            "button_text": "View all articles"
+          }
+        },
+        "shop-the-look": {
+          "type": "shop-the-look",
+          "blocks": {
+            "look-0": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 30,
+                "product_1_vertical_position": 40,
+                "product_2_horizontal_position": 45,
+                "product_2_vertical_position": 65,
+                "product_3_horizontal_position": 70,
+                "product_3_vertical_position": 50
+              }
+            },
+            "look-1": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 25,
+                "product_1_vertical_position": 45,
+                "product_2_horizontal_position": 55,
+                "product_2_vertical_position": 30,
+                "product_3_horizontal_position": 65,
+                "product_3_vertical_position": 60
+              }
+            }
+          },
+          "block_order": [
+            "look-0",
+            "look-1"
+          ],
+          "settings": {
+            "subheading": "Shop",
+            "title": "Our looks"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "show_collection_info": true,
+            "show_collection_image": false,
+            "show_sort_by": true,
+            "show_layout_switch": false,
+            "toolbar_position": "bottom",
+            "filter_position": "sidebar",
+            "filter_mode": "tag",
+            "show_filter_color_swatch": true,
+            "grid_items_per_page": 16,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "show_section": true,
+            "title": "Recently viewed",
+            "show_product_info": true
+          }
+        },
+        "collection-footer": {
+          "type": "collection-footer",
+          "settings": {
+            "show_section": false,
+            "text_color": "#ffffff",
+            "apply_overlay": true,
+            "title": "Our story",
+            "content": "<p>Add your own custom content to explain your processes...<\/p>"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_share_buttons": true,
+            "show_vendor": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3,
+            "image_size": "large",
+            "stack_images": true,
+            "show_thumbnails": false,
+            "enable_image_zoom": true,
+            "reviews_enabled": false
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+            "show_product_recommendations": true,
+            "show_product_info": true
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "featured-collections",
+        "collection-list",
+        "featured-product",
+        "timeline",
+        "blog-posts",
+        "shop-the-look"
+      ]
+    },
+    "Couture": {
+      "heading_color": "#5c5c5c",
+      "text_color": "#5c5c5c",
+      "text_light_color": "#939393",
+      "link_color": "#323232",
+      "background": "#ffffff",
+      "light_background": "#ffffff",
+      "product_on_sale_color": "#f94c43",
+      "button_background": "#5c5c5c",
+      "button_text_color": "#ffffff",
+      "header_background": "#ffffff",
+      "header_heading_color": "#5c5c5c",
+      "header_light_color": "#939393",
+      "footer_background": "#ffffff",
+      "footer_heading_color": "#5c5c5c",
+      "footer_text_color": "#939393",
+      "newsletter_popup_background": "#ffffff",
+      "newsletter_popup_text_color": "#1c1b1b",
+      "secondary_elements_background": "#5c5c5c",
+      "secondary_elements_text_color": "#ffffff",
+      "navigation_background": "#ffffff",
+      "navigation_text_color": "#5c5c5c",
+      "heading_font": "futura_n4",
+      "heading_size": "large",
+      "uppercase_heading": false,
+      "text_font": "century_gothic_n4",
+      "base_text_font_size": 15,
+      "show_page_transition": false,
+      "search_mode": "product,article",
+      "product_show_price_on_hover": true,
+      "product_show_secondary_image": false,
+      "product_info_alignment": "left",
+      "product_image_size": "natural",
+      "product_list_horizontal_spacing": "small",
+      "product_list_vertical_spacing": "small",
+      "cart_type": "drawer",
+      "cart_enable_notes": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "center",
+      "checkout_logo_size": "small",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_accent_color": "#323232",
+      "checkout_button_color": "#5c5c5c",
+      "sections": {
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": {
+            "primary_menu": "main-menu",
+            "show_social_media": true
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "background": "#f3f3f3",
+            "text_color": "#5c5c5c",
+            "content": "Announce something here"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "use_sticky_header": true,
+            "logo_max_width": 140,
+            "navigation_menu": "main-menu",
+            "navigation_style": "center",
+            "enable_transparent_header": true,
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
+                "show_social_media": true
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_payment_methods": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "show_fullscreen": true,
+            "show_arrow": false,
+            "autoplay": true,
+            "cycle_speed": 5,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-collections": {
+          "type": "featured-collections",
+          "blocks": {
+            "featured-collection-0": {
+              "type": "collection",
+              "settings": {
+                "grid_items_count": 8,
+                "button_text": "View all products"
+              }
+            }
+          },
+          "block_order": [
+            "featured-collection-0"
+          ],
+          "settings": {
+            "title": "Featured collection",
+            "layout_mode": "grid",
+            "show_product_info": true,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2"
+          ],
+          "settings": {
+            "add_spacing": true,
+            "expand_collection": false,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+            "title": "Featured product",
+            "show_vendor": true,
+            "show_description": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3
+          }
+        },
+        "timeline": {
+          "type": "timeline",
+          "blocks": {
+            "item-0": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2000",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-1": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2001",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-2": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2002",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "item-0",
+            "item-1",
+            "item-2"
+          ],
+          "settings": {
+            "text_color": "#ffffff"
+          }
+        },
+        "blog-posts": {
+          "type": "blog-posts",
+          "blocks": {
+            "blog-0": {
+              "type": "blog",
+              "settings": {
+                "blog": "news"
+              }
+            }
+          },
+          "block_order": [
+            "blog-0"
+          ],
+          "settings": {
+            "title": "Featured article",
+            "show_category": false,
+            "button_text": "View all articles"
+          }
+        },
+        "shop-the-look": {
+          "type": "shop-the-look",
+          "blocks": {
+            "look-0": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 30,
+                "product_1_vertical_position": 40,
+                "product_2_horizontal_position": 45,
+                "product_2_vertical_position": 65,
+                "product_3_horizontal_position": 70,
+                "product_3_vertical_position": 50
+              }
+            },
+            "look-1": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 25,
+                "product_1_vertical_position": 45,
+                "product_2_horizontal_position": 55,
+                "product_2_vertical_position": 30,
+                "product_3_horizontal_position": 65,
+                "product_3_vertical_position": 60
+              }
+            }
+          },
+          "block_order": [
+            "look-0",
+            "look-1"
+          ],
+          "settings": {
+            "subheading": "Shop",
+            "title": "Our looks"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "show_collection_info": true,
+            "show_collection_image": false,
+            "show_sort_by": true,
+            "show_layout_switch": false,
+            "toolbar_position": "bottom",
+            "filter_position": "sidebar",
+            "filter_mode": "tag",
+            "show_filter_color_swatch": true,
+            "grid_items_per_page": 16,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "show_section": true,
+            "title": "Recently viewed",
+            "show_product_info": true
+          }
+        },
+        "collection-footer": {
+          "type": "collection-footer",
+          "settings": {
+            "show_section": false,
+            "text_color": "#ffffff",
+            "apply_overlay": true,
+            "title": "Our story",
+            "content": "<p>Add your own custom content to explain your processes...<\/p>"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_share_buttons": true,
+            "show_vendor": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3,
+            "image_size": "large",
+            "stack_images": true,
+            "show_thumbnails": false,
+            "enable_image_zoom": true,
+            "reviews_enabled": false
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+            "show_product_recommendations": true,
+            "show_product_info": true
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "featured-collections",
+        "collection-list",
+        "featured-product",
+        "timeline",
+        "blog-posts",
+        "shop-the-look"
+      ]
+    },
+    "Vogue": {
+      "heading_color": "#303030",
+      "text_color": "#303030",
+      "text_light_color": "#595959",
+      "link_color": "#000000",
+      "background": "#ffffff",
+      "light_background": "#ffffff",
+      "product_on_sale_color": "#f94c43",
+      "button_background": "#f5db8b",
+      "button_text_color": "#303030",
+      "header_background": "#ffffff",
+      "header_heading_color": "#303030",
+      "header_light_color": "#595959",
+      "footer_background": "#ffffff",
+      "footer_heading_color": "#303030",
+      "footer_text_color": "#595959",
+      "navigation_background": "#ffffff",
+      "navigation_text_color": "#303030",
+      "newsletter_popup_background": "#ffffff",
+      "newsletter_popup_text_color": "#303030",
+      "secondary_elements_background": "#fce7a8",
+      "secondary_elements_text_color": "#303030",
+      "heading_font": "din_neuzeit_grotesk_n3",
+      "heading_size": "small",
+      "uppercase_heading": true,
+      "text_font": "futura_n4",
+      "base_text_font_size": 14,
+      "show_page_transition": false,
+      "show_element_staggering": false,
+      "search_mode": "product,article",
+      "product_show_price_on_hover": true,
+      "product_show_secondary_image": false,
+      "product_info_alignment": "center",
+      "product_image_size": "natural",
+      "product_list_horizontal_spacing": "medium",
+      "product_list_vertical_spacing": "small",
+      "cart_type": "drawer",
+      "cart_enable_notes": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_accent_color": "#a17c5e",
+      "checkout_button_color": "#454545",
+      "sections": {
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": {
+            "primary_menu": "main-menu",
+            "show_social_media": true
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "background": "#f1e4d8",
+            "text_color": "#343434",
+            "content": "Announce something here"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "use_sticky_header": true,
+            "logo_max_width": 140,
+            "navigation_menu": "main-menu",
+            "navigation_style": "inline",
+            "enable_transparent_header": true,
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
+                "show_social_media": true
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_payment_methods": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "show_fullscreen": true,
+            "show_arrow": false,
+            "autoplay": true,
+            "cycle_speed": 5,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-collections": {
+          "type": "featured-collections",
+          "blocks": {
+            "featured-collection-0": {
+              "type": "collection",
+              "settings": {
+                "grid_items_count": 8,
+                "button_text": "View all products"
+              }
+            }
+          },
+          "block_order": [
+            "featured-collection-0"
+          ],
+          "settings": {
+            "title": "Featured collection",
+            "layout_mode": "grid",
+            "show_product_info": true,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2"
+          ],
+          "settings": {
+            "add_spacing": true,
+            "expand_collection": false,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+            "title": "Featured product",
+            "show_vendor": true,
+            "show_description": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3
+          }
+        },
+        "timeline": {
+          "type": "timeline",
+          "blocks": {
+            "item-0": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2000",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-1": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2001",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-2": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2002",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "item-0",
+            "item-1",
+            "item-2"
+          ],
+          "settings": {
+            "text_color": "#ffffff"
+          }
+        },
+        "blog-posts": {
+          "type": "blog-posts",
+          "blocks": {
+            "blog-0": {
+              "type": "blog",
+              "settings": {
+                "blog": "news"
+              }
+            }
+          },
+          "block_order": [
+            "blog-0"
+          ],
+          "settings": {
+            "title": "Featured article",
+            "show_category": false,
+            "button_text": "View all articles"
+          }
+        },
+        "shop-the-look": {
+          "type": "shop-the-look",
+          "blocks": {
+            "look-0": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 30,
+                "product_1_vertical_position": 40,
+                "product_2_horizontal_position": 45,
+                "product_2_vertical_position": 65,
+                "product_3_horizontal_position": 70,
+                "product_3_vertical_position": 50
+              }
+            },
+            "look-1": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 25,
+                "product_1_vertical_position": 45,
+                "product_2_horizontal_position": 55,
+                "product_2_vertical_position": 30,
+                "product_3_horizontal_position": 65,
+                "product_3_vertical_position": 60
+              }
+            }
+          },
+          "block_order": [
+            "look-0",
+            "look-1"
+          ],
+          "settings": {
+            "subheading": "Shop",
+            "title": "Our looks"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "show_collection_info": true,
+            "show_collection_image": false,
+            "show_sort_by": true,
+            "show_layout_switch": false,
+            "toolbar_position": "bottom",
+            "filter_position": "sidebar",
+            "filter_mode": "tag",
+            "show_filter_color_swatch": true,
+            "grid_items_per_page": 16,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "show_section": true,
+            "title": "Recently viewed",
+            "show_product_info": true
+          }
+        },
+        "collection-footer": {
+          "type": "collection-footer",
+          "settings": {
+            "show_section": false,
+            "text_color": "#ffffff",
+            "apply_overlay": true,
+            "title": "Our story",
+            "content": "<p>Add your own custom content to explain your processes...<\/p>"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_share_buttons": true,
+            "show_vendor": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3,
+            "image_size": "large",
+            "stack_images": true,
+            "show_thumbnails": false,
+            "enable_image_zoom": true,
+            "reviews_enabled": false
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+            "show_product_recommendations": true,
+            "show_product_info": true
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "featured-collections",
+        "collection-list",
+        "featured-product",
+        "timeline",
+        "blog-posts",
+        "shop-the-look"
+      ]
+    }
+  }
+}

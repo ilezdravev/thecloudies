@@ -1,0 +1,180 @@
+{
+  "sections": {
+    "c857eee2-15fb-4d80-9508-5fb31fdf1d0d": {
+      "type": "custom-html",
+      "custom_css": [
+        ".Container {height: 10px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Your Order Status",
+        "html": ""
+      }
+    },
+    "1680208580c995a1ae": {
+      "type": "apps",
+      "blocks": {
+        "5b29d292-64d1-4696-85c7-db4c49104c7f": {
+          "type": "shopify:\/\/apps\/wonderment\/blocks\/wonderBlock\/89d63369-6ee7-4097-ac41-8229c6f90001",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "5b29d292-64d1-4696-85c7-db4c49104c7f"
+      ],
+      "settings": {
+      }
+    },
+    "faq": {
+      "type": "wonderment-faq",
+      "blocks": {
+        "shipping-heading": {
+          "type": "section_heading",
+          "settings": {
+            "title": "FAQs"
+          }
+        },
+        "when-shipping-question": {
+          "type": "question",
+          "settings": {
+            "title": "When will my order ship?",
+            "text": "<p>You've placed an order, the sun is shining and the sky is bright blue because you know your Cloudies are on their way - now what?<br\/><br\/>Once an order is placed, our team will carefully pick up your Cloudies from the clouds and lovingly pack them. Please allow up to 72 hours for our team to pick up and pack your order.<br\/><br\/>All orders are shipped when all items are completely ready - this means that any items you have pre-ordered will wait until the last item is available, and then be shipped at the same time.<\/p>"
+          }
+        },
+        "when-arriving-question": {
+          "type": "question",
+          "settings": {
+            "title": "How long does shipping take?",
+            "text": "<p>USA: 7 - 21 days<br\/>Canada: 8-21 days<br\/>United Kingdom: 8-21 days<br\/>Australia and New Zealand: 7 - 21 days<br\/>Europe: 7 - 21 days<br\/>Rest of the world: 7 - 21 days<\/p>"
+          }
+        },
+        "ship-international-question": {
+          "type": "question",
+          "settings": {
+            "title": "Why do they shrink in the sun?",
+            "text": "<p>To make the squishiest, most comfortable material there are micro air pockets the compress when overheated causing them to shrink slightly.<br\/><br\/>If you experience this, use the code FUNSUN to save 15% off your next order. Shhh, keep the code a secret though.<\/p>"
+          }
+        },
+        "shipping-cost-question": {
+          "type": "question",
+          "settings": {
+            "title": "Questions about your order?",
+            "text": "<p>Please go to our <a href=\"\/pages\/faq\" title=\"FAQ\">FAQs <\/a>page and check if you can find your answer there. If not please reach out to our support team at: <a href=\"mailto:contact@thecloudies.com\" title=\"mailto:contact@thecloudies.com\">contact@thecloudies.com<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "shipping-heading",
+        "when-shipping-question",
+        "when-arriving-question",
+        "ship-international-question",
+        "shipping-cost-question"
+      ],
+      "settings": {
+        "show_answers": false,
+        "text_size": 100,
+        "alignment": "center",
+        "text_color": "#121212",
+        "background_color": "linear-gradient(184deg, rgba(255, 255, 255, 1) 7%, rgba(255, 255, 255, 1) 94%)",
+        "border_color": "#121212",
+        "base_width": 80,
+        "max_width": "",
+        "inner_padding": 100,
+        "outer_margin": 0,
+        "custom_css": "",
+        "mobile_custom_css": "",
+        "override_theme_font": false,
+        "heading_font": "serif",
+        "main_font": "sans-serif"
+      }
+    },
+    "products": {
+      "type": "wonderment-featured-collection",
+      "disabled": true,
+      "settings": {
+        "per_row": 3,
+        "show_arrows": true,
+        "show_product_title": true,
+        "show_product_price": true,
+        "show_product_label": true,
+        "text_size": 100,
+        "heading_color": "#121212",
+        "text_color": "#121212",
+        "background_color": "linear-gradient(360deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "base_width": 95,
+        "max_width": "",
+        "inner_padding": 40,
+        "outer_margin": 0,
+        "custom_css": "",
+        "mobile_custom_css": "",
+        "override_theme_font": false,
+        "heading_font": "serif",
+        "main_font": "sans-serif"
+      }
+    },
+    "rebuy": {
+      "type": "wonderment-rebuy",
+      "disabled": true,
+      "settings": {
+        "rebuy-widget-id": ""
+      }
+    },
+    "fairing": {
+      "type": "wonderment-fairing",
+      "disabled": true,
+      "settings": {
+        "fairing-key": "",
+        "fairing-padding-tb": 10,
+        "fairing-padding-lr": 10,
+        "fairing-border-color": "#000000",
+        "fairing-border-size": 0,
+        "fairing-border-radius": 0,
+        "fairing-title-text-align": "center",
+        "fairing-title-margin-top": 20,
+        "fairing-title-margin-bottom": 20,
+        "fairing-title-max-width": 100,
+        "fairing-response-border-color": "#000000",
+        "fairing-response-border-size": 0,
+        "fairing-response-border-radius": 0,
+        "fairing-response-padding": 5,
+        "fairing-responses-margin": 20
+      }
+    },
+    "a206a48d-03dd-492a-9c89-ea6d6a3f61a8": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--16702556569832__a206a48d-03dd-492a-9c89-ea6d6a3f61a8-1680208898caf3665e-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "shop-the-cloudies™",
+            "title": "Featured Products",
+            "grid_items_count": 4,
+            "button_text": "View all products"
+          }
+        }
+      },
+      "block_order": [
+        "template--16702556569832__a206a48d-03dd-492a-9c89-ea6d6a3f61a8-1680208898caf3665e-0"
+      ],
+      "settings": {
+        "title": "Featured collection",
+        "layout_mode": "carousel",
+        "show_product_info": true,
+        "show_vendor": false,
+        "show_color_swatch": false,
+        "grid_mobile_items_per_row": "2",
+        "grid_desktop_items_per_row": 4
+      }
+    }
+  },
+  "order": [
+    "c857eee2-15fb-4d80-9508-5fb31fdf1d0d",
+    "1680208580c995a1ae",
+    "faq",
+    "products",
+    "rebuy",
+    "fairing",
+    "a206a48d-03dd-492a-9c89-ea6d6a3f61a8"
+  ]
+}
